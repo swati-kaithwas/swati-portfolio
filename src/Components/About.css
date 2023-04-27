@@ -1,0 +1,32 @@
+
+.experience{
+    width: 80%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 49% 49%;
+    gap: 10px;
+    align-items: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 10px;  
+}
+.experience>div{
+    min-height: 300px;
+    margin-top: 20px;
+}
+ 
+
+@media (max-width: 880px){
+    .experience{
+        display: grid;
+        grid-template-columns: 98%;
+        gap: 10px;
+        align-items: center; 
+    }
+    .imag{
+        display: none;
+    }
+    .experience>div{
+        width: 80%;
+        margin: 20px auto;
+    }
+}

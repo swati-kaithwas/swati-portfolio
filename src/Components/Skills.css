@@ -1,0 +1,44 @@
+.skills-container {
+    width: 100%;
+    height: fit-content;
+    background: transparent;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 20px;
+    padding: 20px;
+    background-color:rgba(-2, -2, -5, 0.05);
+}
+ 
+h1 {
+    text-decoration: underline;
+}
+.aboutContent {
+    padding: 10px;
+}
+.icon {
+    margin: 10px auto;
+} 
+.iconsContainer {
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: 20px;
+    padding: 10px;
+}
+.iconsContainer1 {
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 20px;
+    padding: 10px;
+}
+@media only screen and (max-width: 768px) {
+    .skill-scontainer{
+        height: auto;
+    }
+    .iconsContainer {
+        grid-template-columns: auto auto;
+    }
+    .iconsContainer1 {
+        grid-template-columns: auto ;
+    }
+}

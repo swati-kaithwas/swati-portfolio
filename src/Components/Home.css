@@ -1,0 +1,112 @@
+.hom-container { 
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+.name{
+    color:#f5091dd3;
+    font-size:47px;
+}
+.hom-box > p {
+    font-size: 20px;
+    line-height: 28px;
+}
+.hom-box {
+    font-family: 'Raleway', sans-serif;
+    width: 550px;
+    text-align: left;
+}
+.hom-box >h4 {
+    margin: 7px 0px;
+    font-size: 35px;
+}
+
+a {
+    margin: 10px;
+}
+.homeBtns {
+    margin:5px 15px;
+    width: 120px;
+    padding: 8px 5px;
+    background: transparent;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    border: 0.5px solid black;
+}
+.homeBtns:hover {
+    background-color:black;
+    color:  white;
+    border: 0.5px solid black;
+}
+.social {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 20px;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+    background: transparent;
+    border: none;
+}
+.hom_img{
+    box-shadow: rgba(50,50,93,0.25) 50px 50px 100px -50px,
+    rgba(0, 0, 0, 0.733) 0px 30px 60px -30px; 
+}
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 3px 0; 
+    position: absolute;
+    z-index: 1;
+  }
+  .tooltiptext {
+      position: relative;
+      top: -30px;
+      left: -30px;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+@media only screen and (max-width: 798px) {
+    .hom-container{
+        height: auto;
+        flex-direction: column;
+        padding:30px 0px;
+    }
+    .name {
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .hom-box {
+        width: 60%;
+        margin: 10px auto;
+        text-align: center;
+        font-size: 15px;
+    }
+    .hom-box > h4  {
+        font-size: 20px;
+    }
+    .hom-box > p {
+        font-size: 12px;
+    }
+    .social {
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .social button {
+        margin: 5px;
+    }
+}
