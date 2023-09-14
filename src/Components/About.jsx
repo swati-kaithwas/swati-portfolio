@@ -53,7 +53,7 @@ const About = () => {
     },[])
     return (
         <div className="about-wrapper" id="about" >
-            <h1 data-aos="zoom-in-up"  style={{fontFamily: 'Raleway, sans-serif', marginTop:"20px"}}>About</h1>
+            <h1 data-aos="zoom-in-up"  style={{fontFamily: 'Raleway, sans-serif', marginTop:"20px"}}>Experience</h1>
             <div className='about_contaner'>
                 {experience.map((e)=>{
                          return( 
